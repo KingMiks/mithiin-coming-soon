@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO / vendor-verification metadata -->
+    <title>MITHIIN | Fine Lab-Grown Diamonds & High Jewelry</title>
+    <meta
+      name="description"
+      content="Derived from the Tagalog word for 'deepest aspiration and desire,' Mithiin crafts exquisite lab-grown diamond pieces designed to encapsulate life's most meaningful moments."
+    />
+    <meta
+      name="keywords"
+      content="Mithiin, lab-grown diamonds, high jewelry, fine jewelry"
+    />
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+
+    <style>
+      /* Reset default spacing so the background fills edge to edge */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        height: 100%;
+        font-family: "Helvetica Neue", Arial, sans-serif;
+      }
+
+      body {
+        /* Background image setup */
+        background-image: url("background.png");
+        background-size: cover; /* fills the screen without stretching */
+        background-position: center; /* keeps the image centered */
+        background-repeat: no-repeat;
+        background-attachment: fixed; /* stays put if content ever scrolls */
+
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        text-align: left;
+        min-height: 100vh;
+        padding: 20px 20px 24px;
+        color: #ffffff; /* adjust if your background image is light-colored */
+      }
+
+      h1 {
+        font-size: clamp(2rem, 6vw, 4rem); /* scales with screen size */
+        letter-spacing: 0.1em;
+        font-weight: 300;
+        margin: 0 0 0.5rem;
+        top: auto;
+        text-transform: uppercase;
+      }
+
+      p.coming-soon {
+        font-size: 0.75rem;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        opacity: 0.8;
+        margin: 0 0 0;
+      }
+
+      p.tagline {
+        position: absolute;
+        left: 10%;
+        top: 65%;
+        transform: translate(0, -50%);
+        width: min(660px, 82vw);
+        font-size: clamp(0.64rem, 1.15vw, 0.98rem);
+        line-height: 1.8;
+        font-weight: 300;
+        margin: 0;
+        opacity: 0.9;
+        text-align: left;
+      }
+
+      footer {
+        position: absolute;
+        bottom: 24px;
+        font-size: 0.8rem;
+        left: 24px;
+        opacity: 0.7;
+      }
+
+      footer a {
+        color: inherit;
+        text-decoration: underline;
+      }
+
+      /* Keeps content real in the DOM (visible to bots/screen readers)
+         while removing it from the visible layout, for elements whose
+         text is already baked into the background image */
+      .visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+      }
+
+      /* Mobile adjustments */
+      @media (max-width: 480px) {
+        footer {
+          bottom: 16px;
+          padding: 0 16px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Mithiin</h1>
+
+    <p class="coming-soon">Coming Soon</p>
+
+    <p class="tagline">
+      Derived from the Tagalog word for "deepest aspiration and desire," Mithiin
+      crafts exquisite lab-grown diamond pieces designed to encapsulate life's
+      most meaningful moments.
+    </p>
+
+    <footer>
+      For partner and supplier inquiries, contact
+      <a href="mailto:info@mithiinko.com">info@mithiinko.com</a>
+    </footer>
+  </body>
+</html>
